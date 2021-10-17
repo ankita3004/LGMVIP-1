@@ -6,6 +6,14 @@ body{
 .navbar{
     color: white;
 }
+.nav-link{
+    font-size: 0.9rem;
+    padding: 2%;
+    color: white;
+}
+.nav-link:hover,.navbar-brand:hover{
+    color:#faec57;
+}
 .navbar .active{
     color:#faec57;
 }
@@ -39,13 +47,6 @@ body{
     padding: 0 14% 2% 15%;
     font-weight: 200;
 }
-
-.nav-link{
-    font-size: 0.9rem;
-    padding: 2%;
-    color: white;
-}
-
 .second{
     text-align: center;
     padding:5% 12% 0;
