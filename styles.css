@@ -1,8 +1,9 @@
 body{
     background-color: auto;
     max-width: 100%;
+    position:relative;
     overflow-x: hidden;
-}
+}   
 .navbar{
     color: white;
 }
