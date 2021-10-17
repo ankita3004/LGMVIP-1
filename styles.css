@@ -1,0 +1,376 @@
+body{
+    background-color: auto;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.navbar{
+    color: white;
+}
+.navbar .active{
+    color:#faec57;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-right: 22%;
+    padding-left: 20%;
+    color: white;
+}
+.header{
+    background-image: url(images/image-1.jpg);
+    background-repeat: no-repeat ;
+    color: white;
+}
+.first{
+    padding:6% 7% 20%;
+}
+.first h1{
+    font-size: 3.5rem;
+    padding: 0 15%;
+}
+ h1{
+    font-size: 3rem;
+    margin: 2% 0;
+    padding: 2% 5%;
+    font-weight: bold;
+}
+.first p{
+    font-size: 1.3rem;
+    padding: 0 14% 2% 15%;
+    font-weight: 200;
+}
+
+.nav-link{
+    font-size: 0.9rem;
+    padding: 2%;
+    color: white;
+}
+
+.second{
+    text-align: center;
+    padding:5% 12% 0;
+}
+.col-icon{
+    color:white;
+    background-color: #6c0078;
+    font-weight: bold;
+    padding: 3% 6%;
+    border-radius: 100%;
+    font-size: 2.5rem;
+}
+.second p{
+    font-size: 1.9rem;
+    color: grey;
+    text-align: left;
+    margin: 5% 8%;
+}
+.second img{
+    float: right;
+    height: 250px;
+    width:250px;
+}
+.column-1{
+    text-align: center;
+    padding: 2% 15%;
+}
+.column-1 h4{
+    padding-top: 15%;
+}
+.column-1 p{
+    padding: 5% 10%;
+    color: grey;
+    font-size: 1.2rem;
+}
+.column-1 .btn{
+    padding:3% 8%;
+    margin-bottom: 10%;
+}
+ .purple{
+   background-color:#6c0078;
+   color: white;
+   font-weight: bold;
+}
+ .yellow{
+    background-color: #faec57;
+    color: black;
+    font-weight: bold;
+}
+.grey{
+    background-color:#d4d3cf;
+    color: black;
+    font-weight: bold;
+}
+.white{
+    background-color:white;
+    color: black;
+    font-weight: bold;
+}
+.first .btn{
+    padding:1.5% 3%;
+    margin: 0.5%;
+}
+.first .yellow{
+    margin-left: 15%;
+}
+.projects{
+    text-align: center;
+
+}
+.blog{
+    text-align: center;
+    padding: 1% 17% 4%;
+}
+.blog-image{
+    height: 150px;
+    width:90%;
+    margin: 1%;
+}
+.blog .btn{
+    padding:3% 12%;
+    margin-bottom: 10%;
+}
+.date{
+    padding: 1%;
+    color:grey;
+}
+.desc{
+    color:black;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 1%;
+}
+.blog h5{
+    font-size: 1.3rem;
+}
+h5{
+    font-size: 1.4rem;
+    padding: 4%;
+    font-weight: bold;
+}
+.footer{
+    text-align:center;
+    padding: 6% 12% 8%;
+}
+.footer h6{
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0 0 5%;
+}
+.footer p{
+    margin: 0;
+    font-weight: 600;
+}
+.footer-icon{
+    font-size: 1.7rem;
+    margin: 8%;
+    color: black;
+}
+.colm-1,.colm-2,.colm-3,.colm-4{
+    padding: 5% 10%;
+    text-align: left;
+}
+.colm-2{
+    background-color: #faec57;
+}
+.colm-1,.colm-3{
+    background-color: #d4d3cf ;
+}
+.colm-4{
+    background-color:#b0afb3;
+}
+.projects img{
+    height:470px;
+    width:100%;
+}
+.nospace{
+   padding: 0;
+   margin: 0;
+}
+
+.projects .btn{
+    padding:3%;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.contact{
+    margin:0;
+    background-color:#d4d3cf ;
+}
+.contact-form{
+    background-color:#faec57 ;
+}
+form{
+    padding: 0 45% 0 3%;
+}
+.form-group{
+    margin:2%;
+}
+form .btn{
+    padding: 1% 43%;
+}
+.msg-input{
+    height: 150px;
+    width:100%;
+}
+label{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.zippy-team{
+    text-align: center;
+    padding: 5% 22% 7% 22%;
+}
+.zippy-team img{
+    width: 100%;
+    height: 230px;
+    border-radius: 100%;
+}
+.zippy-team .img-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    height: 230px;
+    margin :13% 0%;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: #6c0078;
+  }
+  .img-container:hover .overlay {
+    opacity: 0.6;
+  }
+  .team-icon-1{
+    font-size: 2.5rem;
+    position: absolute;
+    top: 35%;
+    left: 13%;
+    text-align: center;
+    color:#ffffff;
+  }
+  .team-icon-2{
+    font-size: 2.5rem;
+    position: absolute;
+    top: 35%;
+    left: 43%;
+    text-align: center;
+    color:#ffffff;
+  }
+  .team-icon-3{
+    font-size: 2.5rem;
+    position: absolute;
+    top: 35%;
+    left: 73%;
+    text-align: center;
+    color:#ffffff;
+  }
+
+  .title{
+    font-weight: bold;
+}
+.text{
+    color: gray;
+}
+
+.pricing{
+    text-align: center;
+    padding: 4% 20%;
+}
+
+.pricing h6{
+    font-weight: bolder;
+    padding: 5%;
+    font-size: 1.2rem;
+}
+
+.pricing .price{
+    color: #b0afb3;
+    margin: 1%;
+}
+
+.pricing p{
+    margin: 1.2%;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.pricing button{
+    padding: 1% 15%;
+    margin: 5%;
+}
+.sec_col{
+    border-left: 5px solid #d4d3cf;
+    border-right: 5px solid #d4d3cf ;
+}
+.life{
+    text-align: center;
+    background-color: #d4d3cf;
+    padding: 7%;
+}
+
+.newsletter{
+    text-align: center;
+    background-image: url(./images/bridge.jpg);
+    margin-top: 0;
+}
+
+.newsletter .bt-2{
+    position: absolute;
+    right:405px;
+    bottom: 75px;
+    padding:0.5% 2.5%;
+}
+.newsletter .input-group{
+    padding: 0 30% 10% 30%;
+}
+.newsletter h1{
+    color:white;
+    padding: 5%;
+    margin: 0;
+}
+.newsletter .bt-1{
+    padding: 1.5% 6%;
+}
+
+hr{
+    border-top: 5px solid #d4d3cf ;
+    width:70%;
+    margin:0 auto; 
+}
+
+.life{
+    text-align: center;
+    padding: 1% 0 7% 0 ;
+    margin-bottom: 0;
+}
+.life img{
+    height:350px;
+    width:50%;
+}
+
+.prev,.next{
+    color: black;
+    font-size: 2rem;
+}
+
+.video{
+    background-color: #6c0078;
+    text-align: center;
+    color:#ffffff;
+    padding-bottom:6%;
+}
+.video h1{
+    padding-top: 4% ;
+}
+.video iframe{
+    height:400px;
+    width:50%;
+}
+
